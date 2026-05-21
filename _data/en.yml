@@ -1,0 +1,220 @@
+name: Alejandro Torrado Quintela
+title: Software Architect / Analyst - Programmer
+email: alejandro.torrado@gmail.com
+# phone: 699751941
+website: https://alextorquin.github.io/
+
+email_title: Email
+phone_title: Phone
+website_title: Web
+
+about_title: About Me
+about_content: |
+  Degree and Master's in Physics, with a Master's in Project Management. Extensive experience in programming and ICT technologies, as well as in analysis and design of software solutions. Versatile with great adaptability and learning ability.
+
+  Experienced in agile development methodologies and team coordination. Over 11 years working in analysis, UML design and Java/J2EE programming, over 7 in Python and over 5 in REST services.
+
+  Key skills: <mark>Java/J2EE</mark>, <mark>Python</mark>, <mark>Django</mark>, <mark>Angular</mark>, <mark>Spring</mark>, <mark>Power BI</mark>, <mark>MongoDB</mark>
+
+github_username: alextorquin
+linkedin_username: alejandro-torrado-quintela-09a054349
+# twitter_username:
+# instagram_username:
+
+additional_links:
+#  - title: Phone
+#    icon: fas fa-phone
+#    url: tel:+34699751941
+
+footer_show_references: true
+references_title: References available on request
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Head of IT & Systems | CIO
+        link: https://www.enerxe.es
+        sub_title: Enerxe
+        caption: February 2014 - March 2021
+        description: |
+          IT department management, hardware/software architecture design, strategic IT planning coordination with executive team, cybersecurity supervision, and development project management for the electrical sector.
+
+          Implementation of Microsoft 365, Power BI, Copilot for M365 solutions. Data analytics with Power BI. Task automation with Python and shell-scripting.
+
+          Key projects: business platform migration (inventory, contracts, billing), design and supervision of REST API integration with providers, custom CRM development, and SISMORED SCADA libraries.
+
+      - layout: left
+        title: Software Architect / Analyst - Programmer
+        link: http://www.itelsis.com
+        sub_title: ITELSIS
+        caption: February 2014 - March 2021
+        description: |
+          Functional analysis, requirements gathering, and technical client management. Prototyping and development of Java/JEE, Python, Django applications, SOAP/REST web services, Big Data, and service-oriented apps for electrical distribution and R&D projects.
+
+          Lead developer and software homologation manager with Red Eléctrica Española. Middleware design for electrical distributors, IoT communications development with FIWARE, and BeagleBone Black firmware for spectroscopic data retrieval.
+
+      - layout: left
+        title: Development Engineer
+        sub_title: SM Tecnología
+        caption: July 2013 - February 2014
+        description: |
+          IT consulting and digitalization solutions study for document management. Market solutions analysis and custom software development. Technical project manager.
+
+          Development of an integrated cargo tele-control solution using RFID for a shipping agent at the Port of Vigo. Technologies: .NET, SQL Server, Java/Spring MVC, MyBatis.
+
+      - layout: left
+        title: Analyst - Programmer
+        sub_title: Everis
+        caption: April 2012 - December 2012
+        description: |
+          Architecture, design and development of Java/J2EE applications for Inditex. Responsible for deployment and client testing.
+
+          Design and implementation of a Java library for data synchronization, technical documentation, data model design, and test planning. Technologies: Spring, Jasper Reports, Hibernate, Struts, WAS, DB2.
+
+      - layout: left
+        title: Analyst - Programmer
+        sub_title: Coremain
+        caption: November 2010 - March 2012
+        description: |
+          Analysis, design and development of Java and iOS applications. UML design and project documentation. Development of tablet and mobile apps.
+
+          Projects: commission calculation system with Drools rule engine (Securitas Direct), banking product catalog with JSF (Banco Cetelem), and digital signature on iPad (Inditex) with Objective-C and Java.
+
+      - layout: left
+        title: Senior Programmer
+        sub_title: Plexus
+        caption: December 2009 - November 2010
+        description: |
+          Java/JEE frontend and backend development for public administration applications. SIGAD project for Xunta de Galicia (Galician Dependency Support System).
+
+          Technologies: JSF, JPA, RichFaces, EJB, MySQL, JBoss.
+
+      - layout: left
+        title: Programmer
+        sub_title: Oesía
+        caption: October 2006 - December 2009
+        description: |
+          Java and Banksphere programming. Implementation of communication libraries between machinery for Inditex (WMS) and banking integration with Banksphere for ISBAN.
+
+          Development of communication libraries with PLCs, scanners, and conveyor belts over TCP/IP, filter-based communications framework, and message interpreter using regular expressions.
+
+      - layout: left
+        title: Internship
+        sub_title: European Space Agency
+        caption: April 2006 - July 2006
+        description: |
+          Development of a graphical user interface in Swing (Java) for the ionized nebulae simulation code, CLOUDY.
+
+      - layout: left
+        title: Science Teacher
+        sub_title: Academia Elisa
+        caption: February 2004 - July 2004
+        description: |
+          Physics, chemistry and mathematics teacher at all levels.
+
+  - title: Featured Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Business Platform Migration (Enerxe)
+        sub_title: February 2023 - June 2024
+        description: |
+          Complete replacement of the management platform for inventory, contracts, network subscribers, switching, meter reading, and toll billing. Included database migration, process coordination and supervision, FTP setup for file exchange with marketing companies according to electrical system regulations.
+
+      - layout: top-middle
+        title: Integration API (Enerxe)
+        sub_title: February 2023 - December 2023
+        description: |
+          Project lead for developing REST APIs across multiple provider platforms, enabling information query through integrations between providers and with third parties.
+
+      - layout: top-middle
+        title: Custom CRM (Enerxe / UDESA)
+        sub_title: December 2023 - Present
+        description: |
+          Project management and vendor selection for a custom web development (www.udesa.es) with client area and administration portal for managing network subscriber requests according to CNMC regulations.
+
+      - layout: top-middle
+        title: SISMORED
+        link: http://www.itelsis.com
+        sub_title: February 2017 - Present
+        description: |
+          Library development on Wonderware SCADA system for electrical network propagation. Graph-based solution for disturbance analysis. Web visualization layer integration. Technologies: Python, Django, Angular.
+
+      - layout: top-middle
+        title: SMARNET (R&D ITELSIS)
+        sub_title: September 2016 - Present
+        description: |
+          Design and development of communications between embedded sensors and alert platform against FIWARE broker via REST/NGSI. Implementation on BeagleBone Black with Ubuntu 14.04. Technologies: Java, Python, Spring, MongoDB, REST, JSON.
+
+      - layout: top-middle
+        title: AQUASERS (R&D ITELSIS)
+        sub_title: January 2017 - Present
+        description: |
+          Analysis, design and development of firmware on BeagleBone Black for spectroscopic data retrieval from SERS spectrometer. Cloud platform and web application for data consultation. Technologies: Java, Python, Spring, MongoDB, REST.
+
+      - layout: top-middle
+        title: Secondary Concentrator (UDESA)
+        sub_title: February 2014 - Present
+        description: |
+          Legal requirements analysis, design and implementation of middleware for electrical distributors. SOA architecture based on ESB, communications with Red Eléctrica's Primary Concentrator via SOAP. Software homologation with Red Eléctrica Española.
+
+      - layout: top-middle
+        title: Cargo Tele-Control (Kaleido)
+        sub_title: July 2013 - February 2014
+        description: |
+          Integrated solution for cargo control at the Port of Vigo. RFID reading of unloaded goods and positioning control in warehouse. Technologies: .NET, SQL Server, Java/Spring MVC, MyBatis.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: European Business School of Barcelona
+        caption: 2018 - 2020
+        sub_title: Master's in Project Management
+
+      - layout: left
+        title: University of Vigo
+        caption: 2006 - 2007
+        sub_title: Master's in Applied Physics, Environmental Physics
+
+      - layout: left
+        title: Complutense University of Madrid
+        caption: 2004 - 2006
+        sub_title: Degree in Physics, Astrophysics
+
+      - layout: left
+        title: University of Santiago de Compostela
+        caption: 1996 - 2003
+        sub_title: Degree in Physics, Particle Physics
+
+  - title: Publications
+    layout: text
+    content: |
+      **Thermophysical properties of the binary mixture p-xylene + nonane at 298.15 K**
+      XXXI Biennial Meeting of the Royal Spanish Society of Physics and 17th Iberian Meeting for the Teaching of Physics. Scientific Communications. September 15, 2007.
+      *Authors: Alejandro Torrado Quintela, D. Peleteiro, M.M. Mato, J.L. Legido, M.I. Paz Andrade*
+
+  - title: Skills & Knowledge
+    layout: text
+    content: |
+      **Languages:**
+      - English: advanced spoken and written (Certificate in Advanced English. University of Cambridge)
+      - German: basic level
+      - Galician: native language
+
+      **Main skills:**
+      - Analysis and UML design: over 11 years
+      - Java / J2EE programming: over 10 years
+      - Python programming: over 7 years
+      - Web services and REST: over 5 years
+      - Technical and functional documentation: over 8 years
+      - Team coordination and project management
+
+      **Courses:**
+      - Angular 7 Development (Vitae Consultores, 20h)
+      - Scrum in IT Project Management (GDoce, 50h)
+      - PMI Agile Certified Practitioner (PMI-ACP)
+      - J2EE Design Patterns
+      - iOS5 Application Development

@@ -3,3 +3,76 @@
 ---
 
 @import 'modern-resume-theme';
+
+#dark-mode-toggle {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+  line-height: 1;
+  padding: 0;
+
+  &:hover {
+    background: #eee;
+  }
+}
+
+.dark #dark-mode-toggle {
+  border-color: #555;
+  color: #e6e6e6;
+
+  &:hover {
+    background: #333;
+  }
+}
+
+.language-switcher {
+  text-align: center;
+  margin-bottom: 20px;
+
+  a {
+    display: inline-block;
+    padding: 4px 12px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s;
+
+    &:hover {
+      background: #477dca;
+      color: #fff;
+      border-color: #477dca;
+    }
+
+    &.active {
+      background: #333;
+      color: #fff;
+      border-color: #333;
+    }
+  }
+}
+
+.dark .language-switcher a {
+  color: #e6e6e6;
+  border-color: #555;
+
+  &:hover {
+    background: #477dca;
+    color: #fff;
+    border-color: #477dca;
+  }
+
+  &.active {
+    background: #e6e6e6;
+    color: #222;
+    border-color: #e6e6e6;
+  }
+}

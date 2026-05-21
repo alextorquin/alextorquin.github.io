@@ -1,0 +1,43 @@
+<div class="container footer-container">
+  <div class="language-switcher">
+    {%- if page.lang == "en" -%}
+      <a href="{{ '/' | relative_url }}">ES</a>
+      <a href="{{ '/en/' | relative_url }}" class="active">EN</a>
+    {%- else -%}
+      <a href="{{ '/' | relative_url }}" class="active">ES</a>
+      <a href="{{ '/en/' | relative_url }}">EN</a>
+    {%- endif -%}
+  </div>
+  <p>
+    {{ t.name | escape }} -
+    <a href="mailto:{{ t.email }}" target="_blank">{{ t.email | escape }}</a>
+    {%- if t.footer_show_references -%}
+      &nbsp;- {{ t.references_title | default: "References on request" }}
+    {%- endif -%}
+  </p>
+  <div style="text-align:center;margin-top:20px">
+    <button id="dark-mode-toggle" aria-label="Toggle dark mode">&#9790;</button>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var toggle = document.getElementById('dark-mode-toggle');
+    var saved = localStorage.getItem('dark-mode');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (saved === 'true' || (saved === null && prefersDark)) {
+      document.body.classList.add('dark');
+      if (toggle) toggle.textContent = '\u2600\uFE0F';
+    }
+
+    if (toggle) {
+      toggle.addEventListener('click', function() {
+        document.body.classList.toggle('dark');
+        var isDark = document.body.classList.contains('dark');
+        this.textContent = isDark ? '\u2600\uFE0F' : '\uD83C\uDF19';
+        localStorage.setItem('dark-mode', isDark);
+      });
+    }
+  })();
+</script>
