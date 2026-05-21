@@ -1,154 +1,224 @@
 # Site
-repository: sproogen/resume-theme
+repository: alextorquin/alextorquin.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Testing
-title: Senior Network System Administrator
-email: not@yet.com
+name: Alejandro Torrado Quintela
+title: Arquitecto de Software / Analista - Programador
+email: alejandro.torrado@gmail.com
 website: https://alextorquin.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: nope
-github_username:  nope
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: nope
-linkedin_username: nope
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's TEST and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: |
+  Licenciado y Máster en Física, con un Máster en Project Management. Amplia experiencia en programación y tecnologías TIC, así como en análisis y diseño de soluciones informáticas. Versátil y con gran capacidad de adaptación y aprendizaje.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Experiencia en metodologías ágiles de desarrollo y coordinación de equipos. Más de 11 años trabajando en análisis, diseño UML y programación Java/J2EE, más de 7 en Python y más de 5 en servicios REST.
+
+  Habilidades principales: <mark>Java/J2EE</mark>, <mark>Python</mark>, <mark>Django</mark>, <mark>Angular</mark>, <mark>Spring</mark>, <mark>Power BI</mark>, <mark>MongoDB</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experiencia
+    layout: list
+    content:
+      - layout: left
+        title: Responsable TIC y Sistemas | CIO
+        link: https://www.enerxe.es
+        sub_title: Enerxe
+        caption: Febrero 2014 - Marzo 2021
+        description: |
+          Dirección del departamento TIC, diseño de arquitectura hardware/software, coordinación de planes estratégicos con equipo directivo, supervisión de ciberseguridad y gestión de proyectos de desarrollo para el sector eléctrico.
+
+          Implantación de soluciones Microsoft 365, Power BI, Copilot para M365. Analítica de datos con Power BI. Automatización de tareas con Python y shell-scripting.
+
+          Proyectos destacados: migración de plataforma de negocio (inventario, contratos, facturación), diseño y supervisión de API REST de integración con proveedores, desarrollo de CRM a medida, y librerías SCADA SISMORED.
+
+      - layout: left
+        title: Arquitecto de Software / Analista - Programador
+        link: http://www.itelsis.com
+        sub_title: ITELSIS
+        caption: Febrero 2014 - Marzo 2021
+        description: |
+          Análisis funcional, toma de requisitos y responsabilidad técnica con clientes. Prototipado y desarrollo de aplicaciones Java/JEE, Python, Django, servicios SOAP/REST, Big Data y apps orientadas a servicios para distribución eléctrica y proyectos I+D.
+
+          Desarrollador principal y responsable de homologación de software con Red Eléctrica Española. Diseño de middleware para distribuidoras eléctricas, desarrollo de comunicaciones IoT con FIWARE, y firmware para BeagleBone Black con recuperación de datos espectroscópicos.
+
+      - layout: left
+        title: Ingeniero de Desarrollo
+        sub_title: SM Tecnología
+        caption: Julio 2013 - Febrero 2014
+        description: |
+          Consultoría TI y estudio de soluciones de digitalización para gestión documental. Análisis de soluciones de mercado y desarrollo de software a medida. Responsable técnico de proyectos.
+
+          Desarrollo de solución integral de tele-control de mercancías mediante RFID para consignataria en el Puerto de Vigo. Tecnologías: .NET, SQL Server, Java/Spring MVC, MyBatis.
+
+      - layout: left
+        title: Analista - Programador
+        sub_title: Everis
+        caption: Abril 2012 - Diciembre 2012
+        description: |
+          Arquitectura, diseño y desarrollo de aplicaciones Java/J2EE para Inditex. Responsable de despliegue y pruebas con cliente.
+
+          Diseño e implementación de librería Java para sincronización de datos, documentación técnica, diseño de modelo de datos y planes de prueba. Tecnologías: Spring, Jasper Reports, Hibernate, Struts, WAS, DB2.
+
+      - layout: left
+        title: Analista - Programador
+        sub_title: Coremain
+        caption: Noviembre 2010 - Marzo 2012
+        description: |
+          Análisis, diseño y desarrollo de aplicaciones Java e iOS. Diseño UML y documentación de proyectos. Desarrollo de apps para tabletas y móviles.
+
+          Proyectos: sistema de cálculo de comisiones con motor Drools (Securitas Direct), catálogo de productos bancarios con JSF (Banco Cetelem), y firma digital en iPad (Inditex) con Objective-C y Java.
+
+      - layout: left
+        title: Programador Senior
+        sub_title: Plexus
+        caption: Diciembre 2009 - Noviembre 2010
+        description: |
+          Desarrollo Java/JEE de frontend y backend para aplicaciones de la administración pública. Proyecto SIGAD para la Xunta de Galicia (Sistema Gallego de Ayuda a la Dependencia).
+
+          Tecnologías: JSF, JPA, RichFaces, EJB, MySQL, JBoss.
+
+      - layout: left
+        title: Programador
+        sub_title: Oesía
+        caption: Octubre 2006 - Diciembre 2009
+        description: |
+          Programación Java y Banksphere. Implementación de librerías de comunicación entre maquinaria para Inditex (SGA) e integración bancaria con Banksphere para ISBAN.
+
+          Desarrollo de librerías de comunicación con PLCs, escáneres y cintas de transporte sobre TCP/IP, framework de comunicaciones basado en filtros e intérprete de mensajes con expresiones regulares.
+
+      - layout: left
+        title: Prácticas
+        sub_title: Agencia Espacial Europea
+        caption: Abril 2006 - Julio 2006
+        description: |
+          Desarrollo de interfaz gráfica en Swing (Java) para el código de simulación en nebulosas ionizadas, CLOUDY.
+
+      - layout: left
+        title: Profesor de Ciencias
+        sub_title: Academia Elisa
+        caption: Febrero 2004 - Julio 2004
+        description: |
+          Profesor de física, química y matemáticas a todos los niveles.
+
+  - title: Proyectos Destacados
+    layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+        title: Migración de plataforma de negocio (Enerxe)
+        sub_title: Febrero 2023 - Junio 2024
+        description: |
+          Sustitución completa de la plataforma de gestión de inventario, contratos, abonados de red, switching, lectura de contadores y facturación de peajes. Incluyó traslación de datos entre bases de datos, coordinación y supervisión de procesos, instalación de FTP para intercambio de ficheros con comercializadoras según normativa del sistema eléctrico.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: top-middle
+        title: API de integración (Enerxe)
+        sub_title: Febrero 2023 - Diciembre 2023
+        description: |
+          Lead del proyecto para desarrollo de REST APIs en plataformas de múltiples proveedores, permitiendo consulta de información mediante integraciones entre dichos proveedores y con terceros.
+
+      - layout: top-middle
+        title: CRM a medida (Enerxe / UDESA)
+        sub_title: Diciembre 2023 - Actualidad
+        description: |
+          Gestión del proyecto y selección de proveedor para desarrollo de web a medida (www.udesa.es) con área de clientes y portal de administración para gestión de solicitudes de abonados de red según normativas CNMC.
+
+      - layout: top-middle
+        title: SISMORED
+        link: http://www.itelsis.com
+        sub_title: Febrero 2017 - Actualidad
+        description: |
+          Desarrollo de librerías sobre sistema SCADA Wonderware para propagación de redes eléctricas. Solución basada en grafos para análisis de perturbaciones. Integración con capa de visualización web. Tecnologías: Python, Django, Angular.
+
+      - layout: top-middle
+        title: SMARNET (I+D ITELSIS)
+        sub_title: Septiembre 2016 - Actualidad
+        description: |
+          Diseño y desarrollo de comunicaciones entre sensores embarcados y plataforma de alertas contra broker FIWARE mediante REST/NGSI. Implementación sobre BeagleBone Black con Ubuntu 14.04. Tecnologías: Java, Python, Spring, MongoDB, REST, JSON.
+
+      - layout: top-middle
+        title: AQUASERS (I+D ITELSIS)
+        sub_title: Enero 2017 - Actualidad
+        description: |
+          Análisis, diseño y desarrollo de firmware sobre BeagleBone Black para recuperación de datos espectroscópicos de espectrómetro SERS. Plataforma cloud y aplicación web para consulta de datos. Tecnologías: Java, Python, Spring, MongoDB, REST.
+
+      - layout: top-middle
+        title: Concentrador Secundario (UDESA)
+        sub_title: Febrero 2014 - Actualidad
+        description: |
+          Análisis de requisitos legales, diseño e implementación de middleware para distribuidoras eléctricas. Arquitectura SOA basada en ESB, comunicaciones con Concentrador Principal de Red Eléctrica mediante SOAP. Homologación de software con Red Eléctrica Española.
+
+      - layout: top-middle
+        title: Tele-Control de mercancías (Kaleido)
+        sub_title: Julio 2013 - Febrero 2014
+        description: |
+          Solución integral para control de mercancías en el Puerto de Vigo. Lectura RFID de mercancías desembarcadas y control de posicionamiento en nave. Tecnologías: .NET, SQL Server, Java/Spring MVC, MyBatis.
+
+  - title: Educación
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+        title: Escuela de Negocios Europea de Barcelona
+        caption: 2018 - 2020
+        sub_title: Máster en Project Management
+        description: |
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Universidad de Vigo
+        caption: 2006 - 2007
+        sub_title: Máster en Física Aplicada, Física Medioambiental
+        description: |
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Universidad Complutense de Madrid
+        caption: 2004 - 2006
+        sub_title: Licenciado en Física, Astrofísica
+        description: |
 
-  - title: Mapa de Conceptos
+      - layout: left
+        title: Universidad de Santiago de Compostela
+        caption: 1996 - 2003
+        sub_title: Licenciado en Física, Física de Partículas
+        description: |
+
+  - title: Publicaciones
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Un vistazo visual a mis conocimientos y capacidades:
+    content: |
+      **Propiedades termofísicas de la mezcla binaria p-xileno + nonano a 298.15 K**
+      XXXI Reunión Bienal de la Real Sociedad Española de Física y 17º Encuentro Ibérico para la Enseñanza de la Física. Comunicaciones Científicas. 15 de septiembre de 2007.
+      *Autores: Alejandro Torrado Quintela, D. Peleteiro, M.M. Mato, J.L. Legido, M.I. Paz Andrade*
 
-      <div class="mermaid">
-      mindmap
-        root((Alex Torquin))
-          Redes y Sistemas
-            Linux / Administración de servidores
-            Redes (TCP/IP, routing, firewalls)
-            Virtualización y contenedores
-          Programación y Desarrollo
-            Python
-            Bases de datos (SQL/NoSQL)
-            DevOps / CI-CD
-          Habilidades Blandas
-            Liderazgo de equipos
-            Comunicación
-            Resolución de problemas
-            Gestión de proyectos
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-      <script>
-        if (window.mermaid) {
-          mermaid.initialize({ startOnLoad: true, theme: 'default' });
-        }
-      </script>
-
-  - title: A Little More About Me
+  - title: Conocimientos y Aptitudes
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      **Idiomas:**
+      - Inglés: nivel alto hablado y escrito (Certificate in Advanced English. University of Cambridge)
+      - Alemán: nivel básico
+      - Gallego: lengua materna
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      **Aptitudes principales:**
+      - Análisis y diseño UML: más de 11 años
+      - Programación Java / J2EE: más de 10 años
+      - Programación Python: más de 7 años
+      - Web services y REST: más de 5 años
+      - Documentación técnica y funcional: más de 8 años
+      - Coordinación de equipos y gestión de proyectos
 
-  - title: Próximamente
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      En construcción…..
+      **Cursos:**
+      - Desarrollo en Angular 7 (Vitae Consultores, 20h)
+      - Scrum en la Gestión de Proyectos IT (GDoce, 50h)
+      - PMI Agile Certified Practitioner (PMI-ACP)
+      - Patrones de diseño J2EE
+      - Desarrollo de aplicaciones con iOS5
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
