@@ -100,6 +100,35 @@ content:
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
+  - title: Mapa de Conceptos
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Un vistazo visual a mis conocimientos y capacidades:
+
+      <div class="mermaid">
+      mindmap
+        root((Alex Torquin))
+          Redes y Sistemas
+            Linux / Administración de servidores
+            Redes (TCP/IP, routing, firewalls)
+            Virtualización y contenedores
+          Programación y Desarrollo
+            Python
+            Bases de datos (SQL/NoSQL)
+            DevOps / CI-CD
+          Habilidades Blandas
+            Liderazgo de equipos
+            Comunicación
+            Resolución de problemas
+            Gestión de proyectos
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+      <script>
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true, theme: 'default' });
+        }
+      </script>
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
