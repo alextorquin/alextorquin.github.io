@@ -141,6 +141,11 @@ content:
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
+  - title: Próximamente
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      En construcción…..
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
