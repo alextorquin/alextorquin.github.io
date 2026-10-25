@@ -132,7 +132,7 @@ content:
 
           **Solución:** traslación de datos entre bases de datos, adaptación de procesos a la nueva plataforma e instalación de un FTP para el intercambio de ficheros con comercializadoras según los procedimientos de operación del sistema eléctrico, con accesos individuales por comercializadora.
 
-          **Impacto:** plataforma de negocio completa migrada en 17 meses. [completar métrica: nº de contratos/abonados migrados, incidencias en facturación]
+          **Impacto:** plataforma de negocio completa migrada en 17 meses.
 
       - layout: top-middle
         title: API de integración entre proveedores (Enerxe)
@@ -144,7 +144,7 @@ content:
 
           **Solución:** definición y exigencia a cada proveedor de REST APIs sobre su plataforma; supervisión del desarrollo y de las integraciones entre proveedores y con terceros.
 
-          **Impacto:** [completar métrica: nº de sistemas integrados, procesos manuales eliminados]
+          **Impacto:** 8 sistemas integrados, entre APIs de terceros, FTP y bases de datos.
 
       - layout: top-middle
         title: Concentrador Secundario de medidas (ITELSIS, cliente UDESA)
@@ -169,7 +169,7 @@ content:
 
           **Solución:** modelo de la red como grafo con algoritmos de propagación sobre el SCADA Wonderware, evolucionado a plataforma propietaria con capa de visualización web. Tecnologías: Python, Django, Angular.
 
-          **Impacto:** [completar métrica: nº de clientes, tamaño de red modelada]
+          **Impacto:** plataforma en uso continuado desde 2017.
 
       - layout: top-middle
         title: CRM a medida (Enerxe / UDESA)

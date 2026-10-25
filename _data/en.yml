@@ -132,7 +132,7 @@ content:
 
           **Solution:** data transfer between databases, adaptation of processes to the new platform, and an FTP service for file exchange with energy retailers as required by the electricity system operating procedures, with individual access per retailer.
 
-          **Impact:** full business platform migrated in 17 months. [complete metric: number of contracts/subscribers migrated, billing incidents]
+          **Impact:** full business platform migrated in 17 months.
 
       - layout: top-middle
         title: Vendor Integration API (Enerxe)
@@ -144,7 +144,7 @@ content:
 
           **Solution:** defined and required REST APIs from each vendor on their platform; supervised the development and the integrations between vendors and with third parties.
 
-          **Impact:** [complete metric: number of systems integrated, manual processes removed]
+          **Impact:** 8 systems integrated, including third-party APIs, FTP and databases.
 
       - layout: top-middle
         title: Secondary Metering Concentrator (ITELSIS, client UDESA)
@@ -169,7 +169,7 @@ content:
 
           **Solution:** grid modelled as a graph with propagation algorithms on the Wonderware SCADA, evolved into a proprietary platform with a web visualisation layer. Technologies: Python, Django, Angular.
 
-          **Impact:** [complete metric: number of clients, size of grid modelled]
+          **Impact:** platform in continuous use since 2017.
 
       - layout: top-middle
         title: Custom CRM (Enerxe / UDESA)
