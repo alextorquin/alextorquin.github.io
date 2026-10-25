@@ -1,5 +1,6 @@
 name: Alejandro Torrado Quintela
 title: CIO | Head of IT & Systems · Software Architect
+tagline: "Physicist by training, CIO by profession: I bring scientific rigour to the design and governance of critical systems. Over 20 years building software and infrastructure, now in the regulated electricity sector (CNMC, Red Eléctrica de España)."
 email: alejandro.torrado@gmail.com
 # phone: 699751941
 website: https://alextorquin.github.io/
@@ -10,11 +11,13 @@ website_title: Web
 
 about_title: About Me
 about_content: |
-  Degree and Master's in Physics, with a Master's in Project Management. Extensive experience in programming and ICT technologies, as well as in analysis and design of software solutions. Versatile with great adaptability and learning ability.
+  I trained as a physicist (Degree in Physics, specialising in Particle Physics and Astrophysics, plus a Master's in Applied Physics) and moved into software in 2006 with an internship at the European Space Agency. From physics I kept one habit: model the problem before solving it.
 
-  Over 20 years of professional experience, CIO since 2021. Experienced in agile development methodologies and team coordination. Over 16 years in analysis and UML design, over 15 in Java/J2EE programming, over 12 in Python and over 10 in REST services.
+  For fifteen years I designed and built enterprise software in Java and Python for clients such as Inditex, Grupo Santander, the Xunta de Galicia and electricity distributors. At ITELSIS I was architect and lead developer of the metering middleware certified by Red Eléctrica de España.
 
-  Key skills: <mark>Java/J2EE</mark>, <mark>Python</mark>, <mark>Django</mark>, <mark>Angular</mark>, <mark>Spring</mark>, <mark>Power BI</mark>, <mark>MongoDB</mark>
+  Since 2021 I have led IT at Enerxe: I built the department from scratch, manage budget, vendors and cybersecurity, and ensure regulatory compliance for UDESA's electricity distribution. I complement the technical view with a Master's in Project Management, PRINCE2 Foundation and PMI-ACP.
+
+  Key skills: <mark>IT governance</mark>, <mark>Software architecture</mark>, <mark>Java/J2EE</mark>, <mark>Python</mark>, <mark>REST/SOAP APIs</mark>, <mark>Power BI</mark>, <mark>Datalake / Airflow</mark>
 
 github_username: alextorquin
 linkedin_username: alejandrotorradoquintela
@@ -120,53 +123,77 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Business Platform Migration (Enerxe)
+        title: Business Platform Migration (Enerxe / UDESA)
         sub_title: February 2023 - June 2024
         description: |
-          Complete replacement of the management platform for inventory, contracts, network subscribers, switching, meter reading, and toll billing. Included database migration, process coordination and supervision, FTP setup for file exchange with marketing companies according to electrical system regulations.
+          **Context and role:** CIO at Enerxe. Coordinated and supervised the migration for the electricity distributor UDESA.
+
+          **Challenge:** replace the platform behind inventory, contracts, network subscribers, *switching*, meter reading and network-toll billing (the company's main billing volume) without disrupting billing or customer relations.
+
+          **Solution:** data transfer between databases, adaptation of processes to the new platform, and an FTP service for file exchange with energy retailers as required by the electricity system operating procedures, with individual access per retailer.
+
+          **Impact:** full business platform migrated in 17 months. [complete metric: number of contracts/subscribers migrated, billing incidents]
 
       - layout: top-middle
-        title: Integration API (Enerxe)
+        title: Vendor Integration API (Enerxe)
         sub_title: February 2023 - December 2023
         description: |
-          Project lead for developing REST APIs across multiple provider platforms, enabling information query through integrations between providers and with third parties.
+          **Context and role:** project lead and supervision from the IT management.
+
+          **Challenge:** business data was spread across applications from several vendors in production, with no standard way to query it or integrate it with third parties.
+
+          **Solution:** defined and required REST APIs from each vendor on their platform; supervised the development and the integrations between vendors and with third parties.
+
+          **Impact:** [complete metric: number of systems integrated, manual processes removed]
 
       - layout: top-middle
-        title: Custom CRM (Enerxe / UDESA)
-        sub_title: December 2023 - Present
+        title: Secondary Metering Concentrator (ITELSIS, client UDESA)
+        sub_title: February 2014 - Present
         description: |
-          Project management and vendor selection for a custom web development (www.udesa.es) with client area and administration portal for managing network subscriber requests according to CNMC regulations.
+          **Context and role:** lead developer and software certification owner.
+
+          **Challenge:** comply with current legislation and Red Eléctrica de España requirements for sending a distributor's electricity metering data to the Primary Concentrator.
+
+          **Solution:** middleware with an ESB-based SOA architecture, a shared data warehouse and common metering processes, and a SOAP communication layer with REE's Primary Concentrator. Evaluation of Big Data and Spring XD for metering data capture.
+
+          **Impact:** software certified by Red Eléctrica de España, with an architecture that allows new services on the same data warehouse.
 
       - layout: top-middle
         title: SISMORED
         link: http://www.itelsis.com
         sub_title: February 2017 - Present
         description: |
-          Library development on Wonderware SCADA system for electrical network propagation. Graph-based solution for disturbance analysis. Web visualization layer integration. Technologies: Python, Django, Angular.
+          **Context and role:** design and implementation for several electricity-sector clients.
+
+          **Challenge:** determine the state of the power grid after one or more of its elements are modified or disturbed.
+
+          **Solution:** grid modelled as a graph with propagation algorithms on the Wonderware SCADA, evolved into a proprietary platform with a web visualisation layer. Technologies: Python, Django, Angular.
+
+          **Impact:** [complete metric: number of clients, size of grid modelled]
+
+      - layout: top-middle
+        title: Custom CRM (Enerxe / UDESA)
+        sub_title: December 2023 - Present
+        description: |
+          Vendor selection and project management for a custom website (www.udesa.es) with a customer area and an admin portal for network subscriber requests under CNMC regulations.
 
       - layout: top-middle
         title: SMARNET (R&D ITELSIS)
-        sub_title: September 2016 - Present
+        sub_title: September 2016 - April 2021
         description: |
-          Design and development of communications between embedded sensors and alert platform against FIWARE broker via REST/NGSI. Implementation on BeagleBone Black with Ubuntu 14.04. Technologies: Java, Python, Spring, MongoDB, REST, JSON.
+          Communications between on-board sensors and an alert platform over a FIWARE broker (REST/NGSI), implemented on BeagleBone Black. Technologies: Java, Python, Spring, MongoDB.
 
       - layout: top-middle
         title: AQUASERS (R&D ITELSIS)
-        sub_title: January 2017 - Present
+        sub_title: January 2017 - April 2021
         description: |
-          Analysis, design and development of firmware on BeagleBone Black for spectroscopic data retrieval from SERS spectrometer. Cloud platform and web application for data consultation. Technologies: Java, Python, Spring, MongoDB, REST.
-
-      - layout: top-middle
-        title: Secondary Concentrator (UDESA)
-        sub_title: February 2014 - Present
-        description: |
-          Legal requirements analysis, design and implementation of middleware for electrical distributors. SOA architecture based on ESB, communications with Red Eléctrica's Primary Concentrator via SOAP. Software homologation with Red Eléctrica Española.
+          Firmware on BeagleBone Black to retrieve data from a SERS spectrometer, with a cloud platform and a web app for querying it. Technologies: Java, Python, Spring, MongoDB.
 
       - layout: top-middle
         title: Cargo Tele-Control (Kaleido)
         sub_title: July 2013 - February 2014
         description: |
-          Integrated solution for cargo control at the Port of Vigo. RFID reading of unloaded goods and positioning control in warehouse. Technologies: .NET, SQL Server, Java/Spring MVC, MyBatis.
+          Cargo control at the Port of Vigo using RFID reading and warehouse positioning. Technologies: .NET, SQL Server, Java/Spring MVC, MyBatis.
 
   - title: Education
     layout: list
@@ -258,4 +285,7 @@ content:
   - title: Coming Soon
     layout: text
     content: |
-      Under construction…..
+      Technical articles in progress:
+      - Regulatory digitalisation at an electricity distributor: metering, billing and CNMC.
+      - Centralising data in a mid-sized company: datalake, Airflow and FastAPI.
+      - From theoretical physics to software architecture: model before you code.
