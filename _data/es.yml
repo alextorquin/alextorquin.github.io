@@ -189,6 +189,35 @@ content:
         caption: 1996 - 2003
         sub_title: Licenciado en Física, Física de Partículas
 
+  - title: Mapa de Conceptos
+    layout: text
+    content: |
+      Un vistazo visual a mis conocimientos y capacidades:
+
+      <div class="mermaid">
+      mindmap
+        root((Alex Torquin))
+          Redes y Sistemas
+            Linux / Administración de servidores
+            Redes (TCP/IP, routing, firewalls)
+            Virtualización y contenedores
+          Programación y Desarrollo
+            Python
+            Bases de datos (SQL/NoSQL)
+            DevOps / CI-CD
+          Habilidades Blandas
+            Liderazgo de equipos
+            Comunicación
+            Resolución de problemas
+            Gestión de proyectos
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+      <script>
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true, theme: 'default' });
+        }
+      </script>
+
   - title: Publicaciones
     layout: text
     content: |
@@ -218,3 +247,8 @@ content:
       - PMI Agile Certified Practitioner (PMI-ACP)
       - Patrones de diseño J2EE
       - Desarrollo de aplicaciones con iOS5
+
+  - title: Próximamente
+    layout: text
+    content: |
+      En construcción…..
