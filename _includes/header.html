@@ -3,6 +3,9 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ t.name | escape }}</h1>
       <h2>{{ t.title | escape }}</h2>
+      {%- if t.tagline %}
+      <p class="tagline">{{ t.tagline | escape }}</p>
+      {%- endif %}
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
