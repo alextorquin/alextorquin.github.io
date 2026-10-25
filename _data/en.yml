@@ -189,6 +189,35 @@ content:
         caption: 1996 - 2003
         sub_title: Degree in Physics, Particle Physics
 
+  - title: Concept Map
+    layout: text
+    content: |
+      A visual overview of my knowledge and skills:
+
+      <div class="mermaid">
+      mindmap
+        root((Alex Torquin))
+          Networks and Systems
+            Linux / Server administration
+            Networking (TCP/IP, routing, firewalls)
+            Virtualization and containers
+          Programming and Development
+            Python
+            Databases (SQL/NoSQL)
+            DevOps / CI-CD
+          Soft Skills
+            Team leadership
+            Communication
+            Problem solving
+            Project management
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+      <script>
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true, theme: 'default' });
+        }
+      </script>
+
   - title: Publications
     layout: text
     content: |
@@ -218,3 +247,8 @@ content:
       - PMI Agile Certified Practitioner (PMI-ACP)
       - J2EE Design Patterns
       - iOS5 Application Development
+
+  - title: Coming Soon
+    layout: text
+    content: |
+      Under construction…..
