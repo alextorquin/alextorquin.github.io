@@ -1,5 +1,5 @@
 name: Alejandro Torrado Quintela
-title: Software Architect / Analyst - Programmer
+title: CIO | Head of IT & Systems · Software Architect
 email: alejandro.torrado@gmail.com
 # phone: 699751941
 website: https://alextorquin.github.io/
@@ -37,11 +37,13 @@ content:
         title: Head of IT & Systems | CIO
         link: https://www.enerxe.es
         sub_title: Enerxe
-        caption: February 2014 - March 2021
+        caption: April 2021 - Present
         description: |
           IT department management, hardware/software architecture design, strategic IT planning coordination with executive team, cybersecurity supervision, and development project management for the electrical sector.
 
-          Implementation of Microsoft 365, Power BI, Copilot for M365 solutions. Data analytics with Power BI. Task automation with Python and shell-scripting.
+          Built the IT department and its technical governance from scratch to support UDESA's electricity distribution and Enerxe itself. Regulatory compliance with the CNMC through digitalization of metering and billing processes.
+
+          Data centralization with ingestion and modelling projects (datalake, datahub, Airflow, FastAPI). Implementation of Microsoft 365, Power BI, Copilot for M365 solutions. Data analytics with Power BI. Task automation with Python and shell-scripting.
 
           Key projects: business platform migration (inventory, contracts, billing), design and supervision of REST API integration with providers, custom CRM development, and SISMORED SCADA libraries.
 
@@ -49,7 +51,7 @@ content:
         title: Software Architect / Analyst - Programmer
         link: http://www.itelsis.com
         sub_title: ITELSIS
-        caption: February 2014 - March 2021
+        caption: February 2014 - April 2021
         description: |
           Functional analysis, requirements gathering, and technical client management. Prototyping and development of Java/JEE, Python, Django applications, SOAP/REST web services, Big Data, and service-oriented apps for electrical distribution and R&D projects.
 
@@ -196,20 +198,24 @@ content:
 
       <div class="mermaid">
       mindmap
-        root((Alex Torquin))
-          Networks and Systems
-            Linux / Server administration
-            Networking (TCP/IP, routing, firewalls)
-            Virtualization and containers
-          Programming and Development
-            Python
-            Databases (SQL/NoSQL)
-            DevOps / CI-CD
-          Soft Skills
-            Team leadership
-            Communication
-            Problem solving
-            Project management
+        root((Alejandro Torrado))
+          Strategy and Management
+            IT governance and budget
+            Regulatory compliance CNMC / REE
+            Vendor management
+            Scrum / PRINCE2
+          Architecture and Software
+            Java / J2EE / Spring
+            Python / Django / FastAPI
+            REST / SOAP APIs / SOA
+          Data
+            Power BI
+            Datalake / Airflow
+            MongoDB / SQL
+          Systems
+            On-premise and cloud infrastructure
+            Microsoft 365
+            m2m networks and IoT
       </div>
       <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
       <script>
@@ -244,6 +250,7 @@ content:
       **Courses:**
       - Angular 7 Development (Vitae Consultores, 20h)
       - Scrum in IT Project Management (GDoce, 50h)
+      - PRINCE2 Foundation Certificate in Project Management (TecnoFor, March 2023)
       - PMI Agile Certified Practitioner (PMI-ACP)
       - J2EE Design Patterns
       - iOS5 Application Development

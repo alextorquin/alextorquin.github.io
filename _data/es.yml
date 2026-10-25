@@ -1,5 +1,5 @@
 name: Alejandro Torrado Quintela
-title: Arquitecto de Software / Analista - Programador
+title: CIO | Responsable TIC y Sistemas · Arquitecto de Software
 email: alejandro.torrado@gmail.com
 #phone: 699751941
 website: https://alextorquin.github.io/
@@ -37,11 +37,13 @@ content:
         title: Responsable TIC y Sistemas | CIO
         link: https://www.enerxe.es
         sub_title: Enerxe
-        caption: Febrero 2014 - Marzo 2021
+        caption: Abril 2021 - Actualidad
         description: |
           Dirección del departamento TIC, diseño de arquitectura hardware/software, coordinación de planes estratégicos con equipo directivo, supervisión de ciberseguridad y gestión de proyectos de desarrollo para el sector eléctrico.
 
-          Implantación de soluciones Microsoft 365, Power BI, Copilot para M365. Analítica de datos con Power BI. Automatización de tareas con Python y shell-scripting.
+          Creación integral del departamento IT y su gobernanza técnica para la distribución eléctrica de UDESA y la propia Enerxe. Cumplimiento normativo ante la CNMC mediante la digitalización de procesos de medida y facturación.
+
+          Centralización de datos con proyectos de ingesta y modelización (datalake, datahub, Airflow, FastAPI). Implantación de soluciones Microsoft 365, Power BI, Copilot para M365. Analítica de datos con Power BI. Automatización de tareas con Python y shell-scripting.
 
           Proyectos destacados: migración de plataforma de negocio (inventario, contratos, facturación), diseño y supervisión de API REST de integración con proveedores, desarrollo de CRM a medida, y librerías SCADA SISMORED.
 
@@ -49,7 +51,7 @@ content:
         title: Arquitecto de Software / Analista - Programador
         link: http://www.itelsis.com
         sub_title: ITELSIS
-        caption: Febrero 2014 - Marzo 2021
+        caption: Febrero 2014 - Abril 2021
         description: |
           Análisis funcional, toma de requisitos y responsabilidad técnica con clientes. Prototipado y desarrollo de aplicaciones Java/JEE, Python, Django, servicios SOAP/REST, Big Data y apps orientadas a servicios para distribución eléctrica y proyectos I+D.
 
@@ -196,20 +198,24 @@ content:
 
       <div class="mermaid">
       mindmap
-        root((Alex Torquin))
-          Redes y Sistemas
-            Linux / Administración de servidores
-            Redes (TCP/IP, routing, firewalls)
-            Virtualización y contenedores
-          Programación y Desarrollo
-            Python
-            Bases de datos (SQL/NoSQL)
-            DevOps / CI-CD
-          Habilidades Blandas
-            Liderazgo de equipos
-            Comunicación
-            Resolución de problemas
-            Gestión de proyectos
+        root((Alejandro Torrado))
+          Estrategia y Gestión
+            Gobierno TIC y presupuesto
+            Cumplimiento normativo CNMC / REE
+            Gestión de proveedores
+            Scrum / PRINCE2
+          Arquitectura y Software
+            Java / J2EE / Spring
+            Python / Django / FastAPI
+            APIs REST / SOAP / SOA
+          Datos
+            Power BI
+            Datalake / Airflow
+            MongoDB / SQL
+          Sistemas
+            Infraestructura on-premise y cloud
+            Microsoft 365
+            Redes m2m e IoT
       </div>
       <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
       <script>
@@ -244,6 +250,7 @@ content:
       **Cursos:**
       - Desarrollo en Angular 7 (Vitae Consultores, 20h)
       - Scrum en la Gestión de Proyectos IT (GDoce, 50h)
+      - PRINCE2 Foundation Certificate in Project Management (TecnoFor, marzo 2023)
       - PMI Agile Certified Practitioner (PMI-ACP)
       - Patrones de diseño J2EE
       - Desarrollo de aplicaciones con iOS5
